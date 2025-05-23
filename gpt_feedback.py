@@ -3,9 +3,6 @@ from openai import OpenAI
 
 client = OpenAI(api_key="sk-...iFgA"
 
-
-
-
 def get_feedback(prompt):
     response = client.chat.completions.create(
       model="gpt-4"
