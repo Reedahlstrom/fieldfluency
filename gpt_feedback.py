@@ -1,6 +1,7 @@
 from openai import OpenAI
 
-client = OpenAI()
+client = OpenAI(api_key="sk-...your_actual_api_key_here...")
+
 
 def get_feedback(prompt):
     response = client.chat.completions.create(
