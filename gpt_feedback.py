@@ -1,6 +1,7 @@
+import streamlit as st
 from openai import OpenAI
 
-client = OpenAI(api_key="sk-...your_actual_api_key_here...")
+client = OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
 
 
 def get_feedback(prompt):
