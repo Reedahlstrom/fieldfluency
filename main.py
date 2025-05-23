@@ -19,3 +19,6 @@ if audio_file:
         feedback = get_feedback(transcript)
         st.markdown("💬 **AI Feedback:**")
         st.write(feedback)
+
+Add visible UI to main page
+
